@@ -1,7 +1,7 @@
 <h1 align="center">
   <br>
-  <a target="_blank" href="https://evryn.github.io/vue-modern-resume/">
-    <img src="src/assets/logo.png" alt="Markdownify">
+  <a target="_blank" href="https://shivaprasadbhat.herokuapp.com/">
+    <img src="src/assets/logo.png" alt="SPSite">
   </a>
   <br>
   Vue Modern Resume
@@ -10,7 +10,7 @@
 
 <h4 align="center">
   🚀 See yourself:
-  <a href="https://evryn.github.io/vue-modern-resume/">
+  <a href="https://shivaprasadbhat.herokuapp.com/">
      Demo
   </a>
 </h4>
@@ -20,8 +20,6 @@
 ## What is Vue Modern Resume?
 Vue Modern Resume is basically a simple (yet easy to setup) resume template based on <a href="https://vuejs.org/">Vue.js</a> framework and <a href="https://vuetifyjs.com/">Vuetify</a> UI toolkit.
 
-## Preview
-See the [raw demo](https://evryn.github.io/vue-modern-resume/) or my own [portfolio](https://amirreza.in) based-on Vue Modern Resume.
 
 
 
@@ -29,10 +27,10 @@ See the [raw demo](https://evryn.github.io/vue-modern-resume/) or my own [portfo
 
 1. Clone this repository.
 ```
-git clone https://github.com/evryn/vue-modern-resume
+git clone https://github.com/shivaprasad-bhat/shivaprasad-site
 ```
 
-2. Go to the cloned directory (e.g. `cd vue-modern-resume`).
+2. Go to the cloned directory (e.g. `cd shivaprasad-site`).
 
 3. Run `npm install`.
 
@@ -48,6 +46,3 @@ Feel free to add your own templates, language supports, bug fixes or improvement
 ## License
 Code is licensed under the [MIT License](LICENSE).
 
-# See Also
-* [ByteGate](https://bytegate.ir/) (our blog)
-* [تبدیل PDF به ورد](http://delix.ir/) (our sponsored service)

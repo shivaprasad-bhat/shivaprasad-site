@@ -1,3 +1,5 @@
+// Script added to run the application in Heroku
+// Not needed to run on linux machines.
 const express     = require('express')
 const serveStatic = require('serve-static')
 const path        = require('path')
