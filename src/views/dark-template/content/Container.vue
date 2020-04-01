@@ -223,12 +223,12 @@ export default {
       {
         icon  : 'mdi-certificate',
         text  : 'Coursera - Python Functions, Files, and Dictionaries',
-        source: 'http://coursera.org/verify/78MRSL8MXGUB',
+        source: 'coursera.org/verify/78MRSL8MXGUB',
       },
       {
         icon  : 'mdi-certificate',
         text  : 'Coursera - Python Files, Data Handl',
-        source: 'http://coursera.org/verify/CML688T4Y4US',
+        source: 'coursera.org/verify/CML688T4Y4US',
       },
     ],
     educations: [
