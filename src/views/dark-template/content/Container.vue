@@ -4,6 +4,13 @@
     light
   >
     <v-card-text>
+      <content-section title="About">
+        <v-layoyt>
+          <v-flex>
+            <strong align="justify">Shivaprasad Bhat, a young and energetic software developer is from remote village called Muroor of Uttara Kannada district. After completing his early education in his home town, Kumata moved to SDM College Mangalore to pursue his bachelor degree in Computer Application. After securing graduation degree with appreciable grade, he started his profession as an associate software engineer at Envestnet Yodlee and worked there for 2 years. At present he is pursuing his Masters in Computer Application at MIT, Manipal. Mr Shivaprasad Bhat is a motivated and skilled software developer with excellent leadership and managerial qualities. Moreover he is flexible to adopt himself to any challenging environment and passionate to take new roles and responsibilities.</strong>
+          </v-flex>
+        </v-layoyt>
+      </content-section>
       <content-section title="Experience">
         <h3>Software Engineer | Envestenet Yodle</h3>
         <h5>(03-Jul-2017 to 12-Jul-2019)</h5>
@@ -133,48 +140,6 @@
           </v-flex>
         </v-layout>
       </content-section>
-
-      <content-section
-        v-if="skills"
-        id="to-timeline"
-        title="Skills"
-      >
-        <template slot="actions">
-          (% are relative not absolute)
-        </template>
-        <v-layout wrap>
-          <template v-for="(skill, i) in skills">
-            <v-flex
-              v-if="skill.divider"
-              :key="i"
-              md12
-              xs12
-              mb-4
-            />
-            <v-flex
-              v-else
-              :key="i"
-              md6
-              xs12
-            >
-              <div class="mr-2 ml-2">
-                <div class="align-center">
-                  <v-icon small>
-                    {{ skill.icon }}
-                  </v-icon>
-                  {{ skill.title }}
-                </div>
-                <v-progress-linear
-                  class="progress"
-                  color="secondary"
-                  height="3"
-                  :value="skill.value"
-                />
-              </div>
-            </v-flex>
-          </template>
-        </v-layout>
-      </content-section>
     </v-card-text>
   </v-card>
 </template>
@@ -185,6 +150,12 @@ export default {
   name      : 'MainContent',
   components: { ContentSection },
   data      : () => ({
+    abc: [
+      {
+        a:
+          'Shivaprasad Bhat, a young and energetic software developer is from remote village called Muroor of Uttara Kannada district. After completing his early education in his home town, Kumata moved to SDM College Mangalore to pursue his bachelor degree in Computer Application. After securing graduation degree with appreciable grade, he started his profession as an associate software engineer at Envestnet Yodlee and worked there for 2 years. At present he is pursuing his Masters in Computer Application at MIT, Manipal. Mr Shivaprasad Bhat is a motivated and skilled software developer with excellent leadership and managerial qualities. Moreover he is flexible to adopt himself to any challenging environment and passionate to take new roles and responsibilities.',
+      },
+    ],
     prouds: [
       {
         icon: 'mdi-account-multiple',
@@ -247,106 +218,6 @@ export default {
         description: '(8.8 CGPA)',
       },
     ],
-    skills: [
-      {
-        title: 'Object Oriented Programming with Java',
-        icon : 'mdi-language-java',
-        value: 95,
-      },
-      {
-        title: 'C++ / C Programming',
-        icon : 'mdi-language-cpp',
-        value: 90,
-      },
-      {
-        title: 'JavaScript',
-        icon : 'mdi-language-javascript',
-        value: 80,
-      },
-      {
-        title: 'HTML5',
-        icon : 'mdi-language-html5',
-        value: 88,
-      },
-      {
-        title: 'CSS3',
-        icon : 'mdi-language-css3',
-        value: 80,
-      },
-      {
-        title: 'Python',
-        icon : 'mdi-language-python',
-        value: 60,
-      },
-      {
-        title: 'SQL',
-        icon : 'mdi-database',
-        value: 70,
-      },
-      {
-        title: 'NoSQL Database',
-        icon : 'mdi-database',
-        value: 60,
-      },
-      {
-        title: 'Vue.js Framework',
-        icon : 'mdi-vuejs',
-        value: 80,
-      },
-      {
-        title: 'Node.js Framework',
-        icon : 'mdi-nodejs',
-        value: 30,
-      },
-      {
-        title: 'PHP',
-        icon : 'mdi-language-php',
-        value: 50,
-      },
-      {
-        title: 'Linux Shell Scripting',
-        icon : 'mdi-console',
-        value: 40,
-      },
-      { divider: true },
-      {
-        title: 'Server Management',
-        icon : 'mdi-linux',
-        value: 70,
-      },
-      {
-        title: 'AWS',
-        icon : 'mdi-amazon',
-        value: 80,
-      },
-      {
-        title: 'Test Driven Development',
-        icon : 'mdi-test-tube',
-        value: 75,
-      },
-      {
-        title: 'Git',
-        icon : 'mdi-git',
-        value: 70,
-      },
-      {
-        title: 'Jenkins',
-        icon : 'mdi-settings',
-        value: 70,
-      },
-      {
-        title: 'MS Office Suite',
-        icon : 'mdi-office',
-        value: 85,
-      },
-      {
-        title: 'VSCode, IntelliJ, Eclipse',
-        icon : 'mdi-code-array',
-        value: 85,
-      },
-
-      { divider: true },
-    ],
   }),
 }
 </script>
@@ -358,5 +229,9 @@ export default {
 }
 .progress {
   margin-top: 0.1rem;
+}
+.justify-center {
+  text-align: justify;
+  text-justify: inter-word;
 }
 </style>

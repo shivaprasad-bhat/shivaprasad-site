@@ -10,11 +10,31 @@
           Shivaprasad
           <span class="light-blue--text text--lighten-3">Bhat</span>
         </h1>
-        <span>Former Software Engineer @ Envestnet | Yodlee <br> MCA student at MIT, Manipal</span>
+        <span>
+          Former Software Engineer @ Envestnet | Yodlee
+          <br>MCA student at MIT, Manipal
+        </span>
       </div>
 
+      <!-- Info -->
       <sidebar-section :options="sections.info" />
+
+      <!-- Social Links -->
       <sidebar-section :options="sections.socials" />
+
+      <!-- Skills -->
+      <sidebar-section :options="sections.skills">
+        <template v-slot:item="{item}">
+          <v-chip>
+            <v-avatar>
+              <v-icon>{{ item.icon }}</v-icon>
+            </v-avatar>
+            {{ item.text }}
+          </v-chip>
+        </template>
+      </sidebar-section>
+
+      <!-- Hobbies -->
       <sidebar-section :options="sections.hobbies">
         <template v-slot:item="{item}">
           <v-chip>
@@ -25,6 +45,8 @@
           </v-chip>
         </template>
       </sidebar-section>
+
+      <!-- Languages -->
       <sidebar-section :options="sections.languages">
         <template v-slot:items="{items}">
           <v-container pa-0>
@@ -55,7 +77,6 @@
           </v-container>
         </template>
       </sidebar-section>
-      <sidebar-section :options="sections.about" />
     </v-card-text>
   </v-card>
 </template>
@@ -126,16 +147,80 @@ export default {
             },
           ],
         },
-        about: {
-          title: 'About Me',
+        skills: {
+          title: 'Skills',
           items: [
             {
-              icon: 'mdi-java',
-              text:
-                'Shivaprasad is from a small village called Muroor in Kumta Taluk, Uttarakannada District. He completed his education till 12th in Kumta. Then he joined SDM College Mangalore for his BCA.'
-                + 'After BCA, he joined Envestnet Yodlee as Associate Software Engineer. Served as Software Engineer for 2 years. '
-                + 'Currently he is pursuing his MCA @ MIT, Manipal.\n'
-                + '\n\nShivaprasad is a highly energetic software developer with managerial and leadership qualities, passionate towards taking up roles and responsibilities and is flexible in adopting the changing environment.',
+              icon: 'mdi-language-java',
+              text: 'Java',
+            },
+            {
+              icon: 'mdi-language-cpp',
+              text: 'C and C ++',
+            },
+            {
+              text: 'JavaScript',
+              icon: 'mdi-language-javascript',
+            },
+            {
+              text: 'HTML5',
+              icon: 'mdi-language-html5',
+            },
+            {
+              text: 'CSS3',
+              icon: 'mdi-language-css3',
+            },
+            {
+              text: 'Python Basics',
+              icon: 'mdi-language-python',
+            },
+            {
+              text: 'SQL',
+              icon: 'mdi-database',
+            },
+            {
+              text: 'NoSQL Database',
+              icon: 'mdi-database',
+            },
+            {
+              text: 'PHP',
+              icon: 'mdi-language-php',
+            },
+            {
+              text: 'Vue.js Framework',
+              icon: 'mdi-vuejs',
+            },
+            {
+              text: 'Node.js Framework',
+              icon: 'mdi-nodejs',
+            },
+            {
+              text: 'Shell Scripting',
+              icon: 'mdi-console',
+            },
+            {
+              text: 'Server Management',
+              icon: 'mdi-linux',
+            },
+            {
+              text: 'AWS',
+              icon: 'mdi-amazon',
+            },
+            {
+              text: 'Test Driven Development',
+              icon: 'mdi-test-tube',
+            },
+            {
+              text: 'Git',
+              icon: 'mdi-git',
+            },
+            {
+              text: 'Office Suite',
+              icon: 'mdi-office',
+            },
+            {
+              text: 'IDE Handling',
+              icon: 'mdi-code-array',
             },
           ],
         },
@@ -157,10 +242,6 @@ export default {
             {
               icon: 'mdi-blogger',
               text: 'Blogging',
-            },
-            {
-              icon: 'mdi-account-group',
-              text: 'Leadership',
             },
             {
               icon: 'mdi-speaker',

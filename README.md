@@ -1,7 +1,7 @@
 <h1 align="center">
   <br>
   <a target="_blank" href="https://shivaprasadbhat.herokuapp.com/">
-    <img src=/assets/logo.png" alt="SPSite">
+    <img src="public/resume.png" alt="SPSite">
   </a>
   <br>
   Vue Modern Resume
