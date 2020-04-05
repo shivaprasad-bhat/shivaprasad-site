@@ -107,7 +107,7 @@ export default {
             {
               name: 'Website',
               icon: 'mdi-web',
-              text: 'shivaprasadbhat.in',
+              text: 'shivaprasad.tech',
             },
             {
               name: 'Date of Birth',
