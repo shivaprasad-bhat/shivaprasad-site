@@ -7,7 +7,7 @@
       <content-section title="About">
         <v-layoyt>
           <v-flex>
-            <strong align="justify">Shivaprasad Bhat, a young and energetic software developer is from remote village called Muroor of Uttara Kannada district. After completing his early education in his home town, Kumata moved to SDM College Mangalore to pursue his bachelor degree in Computer Application. After securing graduation degree with appreciable grade, he started his profession as an associate software engineer at Envestnet Yodlee and worked there for 2 years. At present he is pursuing his Masters in Computer Application at MIT, Manipal. Mr Shivaprasad Bhat is a motivated and skilled software developer with excellent leadership and managerial qualities. Moreover he is flexible to adopt himself to any challenging environment and passionate to take new roles and responsibilities.</strong>
+            <strong align="justify">Shivaprasad Bhat, a young and energetic software developer is from remote village called Muroor of Uttara Kannada district, Karnataka. After completing his early education in his home town, Kumata, he moved to SDM College Mangalore to pursue his bachelor degree in Computer Application. After securing graduation degree with appreciable grade, he started his profession as an associate software engineer at Envestnet Yodlee and worked there for 2 years. At present he is pursuing his Masters in Computer Application at MIT, Manipal. Mr Shivaprasad Bhat is a motivated and skilled software developer with excellent leadership and managerial qualities. Moreover he is flexible to adopt himself to any challenging environment and passionate to take new roles and responsibilities.</strong>
           </v-flex>
         </v-layoyt>
       </content-section>
