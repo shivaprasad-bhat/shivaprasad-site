@@ -2,7 +2,7 @@
   "name": "vue-shivaprasad-site",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://shivaprasad-bhat.github.io/shivaprasad-site",
+  "homepage": "https://shivaprasad-bhat.github.io/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "start": "node server.js",
