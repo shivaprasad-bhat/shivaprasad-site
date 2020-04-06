@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-content>
+    <v-content :style="{'text-align':'justify'}">
       <dark-template-container />
     </v-content>
   </v-app>
