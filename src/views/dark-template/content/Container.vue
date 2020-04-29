@@ -111,7 +111,10 @@
               <br>
               <!-- <span>{{ certificate.source }}</span> -->
               <span>
-                <a :href="certificate.source">Verify Certificate</a>
+                <a
+                  :href="certificate.source"
+                  target="_blank"
+                >Verify Certificate</a>
               </span>
             </p>
           </v-flex>
