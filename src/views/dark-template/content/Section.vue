@@ -34,14 +34,14 @@
 <script>
 export default {
   name      : 'ContentSection',
-  components: { },
+  components: {},
   props     : { title: { type: String, default: '' } },
 }
 </script>
 
 <style scoped>
 .title {
-  border-bottom: 2px #bfbfbf solid;
-  line-height: 1.5 !important;
+    border-bottom: 2px #bfbfbf solid;
+    line-height: 1.5 !important;
 }
 </style>

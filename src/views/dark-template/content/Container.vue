@@ -7,7 +7,9 @@
       <content-section title="About">
         <v-layoyt>
           <v-flex>
-            <strong align="justify">Shivaprasad Bhat, a young and energetic software developer is from remote village called Muroor of Uttara Kannada district, Karnataka. After completing his early education in his home town, Kumata, he moved to SDM College Mangalore to pursue his bachelor degree in Computer Application. After securing graduation degree with appreciable grade, he started his profession as an associate software engineer at Envestnet Yodlee and worked there for 2 years. At present he is pursuing his Masters in Computer Application at MIT, Manipal. Mr Shivaprasad Bhat is a motivated and skilled software developer with excellent leadership and managerial qualities. Moreover he is flexible to adopt himself to any challenging environment and passionate to take new roles and responsibilities.</strong>
+            <strong
+              align="justify"
+            >Shivaprasad Bhat, a young and energetic software developer is from remote village called Muroor of Uttara Kannada district, Karnataka. After completing his early education in his home town, Kumata, he moved to SDM College Mangalore to pursue his bachelor degree in Computer Application. After securing graduation degree with appreciable grade, he started his profession as an associate software engineer at Envestnet Yodlee and worked there for 2 years. At present he is pursuing his Masters in Computer Application at MIT, Manipal. Mr Shivaprasad Bhat is a motivated and skilled software developer with excellent leadership and managerial qualities. Moreover he is flexible to adopt himself to any challenging environment and passionate to take new roles and responsibilities.</strong>
           </v-flex>
         </v-layoyt>
       </content-section>
@@ -107,7 +109,10 @@
             <p>
               <strong>{{ certificate.text }}</strong>
               <br>
-              <span>{{ certificate.source }}</span>
+              <!-- <span>{{ certificate.source }}</span> -->
+              <span>
+                <a :href="certificate.source">Verify Certificate</a>
+              </span>
             </p>
           </v-flex>
         </v-layout>
@@ -193,13 +198,24 @@ export default {
     certificates: [
       {
         icon  : 'mdi-certificate',
-        text  : 'Coursera - Python Functions, Files, and Dictionaries',
-        source: 'coursera.org/verify/78MRSL8MXGUB',
+        text  : 'Coursera - Building Web Applications in PHP',
+        source: 'https://coursera.org/verify/HM55FBE6YYZ5',
       },
       {
         icon  : 'mdi-certificate',
-        text  : 'Coursera - Python Files, Data Handl',
-        source: 'coursera.org/verify/CML688T4Y4US',
+        text  : 'Udemy - Complete CSS3 and Bootstrap Course',
+        source:
+          'https://www.udemy.com/certificate/UC-ab602606-cc1e-4784-bdd6-875f36a6b4d9/',
+      },
+      {
+        icon  : 'mdi-certificate',
+        text  : 'Coursera - Python Basics',
+        source: 'https://coursera.org/verify/78MRSL8MXGUB',
+      },
+      {
+        icon  : 'mdi-certificate',
+        text  : 'Coursera - Python Functions, Files, and Dictionaries',
+        source: 'https://coursera.org/verify/CML688T4Y4US',
       },
     ],
     educations: [
