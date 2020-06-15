@@ -187,6 +187,12 @@ export default {
     projects: [
       {
         icon  : 'mdi-git',
+        text  : 'Sukhi Hrudaya - CVD Care App (2020)',
+        source:
+          'CVD Care is a portal developed for Caregivers, Doctors and Patients. Caregivers can take survey, access static informations reagrding CVD using this PHP based web application.',
+      },
+      {
+        icon  : 'mdi-git',
         text  : 'PFM 3.0 (2017 – 2019)',
         source:
           'PFM is one of the products developed by Envestnet® | Yodlee®. With Personal Financial Management (PFM) tools and user-friendly FinApps, customers can view all of their financial accounts in one place, manage expenses, set a budget, save for personal goals, view investments, calculate net worth, and improve their overall financial wellness.',
