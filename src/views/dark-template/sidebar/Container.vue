@@ -228,6 +228,26 @@ export default {
           title: 'HOBBIES',
           items: [
             {
+              icon: 'mdi-blogger',
+              text: 'Blogging',
+            },
+            {
+              icon: 'mdi-grease-pencil',
+              text: 'Writing Poems',
+            },
+            {
+              icon: 'mdi-speaker',
+              text: 'Debate / Speech',
+            },
+            {
+              icon: 'mdi-radio',
+              text: 'Talk Presentation',
+            },
+            {
+              icon: 'mdi-book-open-page-variant',
+              text: 'Books',
+            },
+            {
               icon: 'mdi-bike',
               text: 'Cycling',
             },
@@ -238,18 +258,6 @@ export default {
             {
               icon: 'mdi-music',
               text: 'Music',
-            },
-            {
-              icon: 'mdi-blogger',
-              text: 'Blogging',
-            },
-            {
-              icon: 'mdi-speaker',
-              text: 'Debate / Speech',
-            },
-            {
-              icon: 'mdi-book-open-page-variant',
-              text: 'Books',
             },
           ],
         },
