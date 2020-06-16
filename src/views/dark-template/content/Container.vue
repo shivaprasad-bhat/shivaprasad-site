@@ -214,6 +214,20 @@ export default {
         source:
           'iLib is an online library management application developed for SDM College, Mangaluru, and is submitted to Mangalore University as final semester project',
       },
+      {
+        icon  : 'mdi-git',
+        text  : 'Monster Slayer',
+        link  : 'https://github.com/shivaprasad-bhat/MonsterSlayer',
+        source:
+          "Monster Slayer is a simple game developed using VueJS framework as part of 'Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex)' course on Udemy.",
+      },
+      {
+        icon  : 'mdi-git',
+        text  : 'Live Todo React App',
+        link  : 'https://github.com/shivaprasad-bhat/todo-react-app',
+        source:
+          'Live todo app is developed using react js library. This app is a single page application which works without refresh. Live data can be stored internally as JSON and resets on refresh. This app is developed as part of a crash course taught by Brad Traversy',
+      },
     ],
     certificates: [
       {
