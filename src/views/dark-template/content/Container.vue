@@ -60,8 +60,16 @@
               <strong>{{ project.text }}</strong>
               <br>
               <span>{{ project.source }}</span>
+              <br>
+              <span v-if="project.link">
+                <a
+                  :href="project.link"
+                  target="_blank"
+                >View On GitHub</a>
+              </span>
             </p>
           </v-flex>
+          <br>
         </v-layout>
       </content-section>
       <content-section
@@ -188,18 +196,21 @@ export default {
       {
         icon  : 'mdi-git',
         text  : 'Sukhi Hrudaya - CVD Care App (2020)',
+        link  : 'https://github.com/shivaprasad-bhat/cvd',
         source:
           'CVD Care is a portal developed for Caregivers, Doctors and Patients. Caregivers can take survey, access static informations reagrding CVD using this PHP based web application.',
       },
       {
         icon  : 'mdi-git',
         text  : 'PFM 3.0 (2017 – 2019)',
+        link  : '',
         source:
           'PFM is one of the products developed by Envestnet® | Yodlee®. With Personal Financial Management (PFM) tools and user-friendly FinApps, customers can view all of their financial accounts in one place, manage expenses, set a budget, save for personal goals, view investments, calculate net worth, and improve their overall financial wellness.',
       },
       {
         icon  : 'mdi-git',
         text  : 'ILIB - Library Management Application',
+        link  : 'https://github.com/shivaprasad-bhat/ILib_Android',
         source:
           'iLib is an online library management application developed for SDM College, Mangaluru, and is submitted to Mangalore University as final semester project',
       },
