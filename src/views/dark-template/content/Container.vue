@@ -189,7 +189,8 @@ export default {
         icon: 'mdi-account-multiple',
         text:
           'Won several awards in various IT fests organized for UG Students.',
-        source: '(Also participated in various technical/non-technical events.)',
+        source:
+          '(Also participated in various technical/non-technical events.)',
       },
     ],
     projects: [
@@ -258,7 +259,7 @@ export default {
         to         : 'Present',
         title      : "Master's degree, Computer Applications",
         location   : 'Manipal Academy of Higher Education, Manipal',
-        description: '(10 CGPA, 1st Semester)',
+        description: '(9.7 CGPA)',
       },
       {
         from       : '2014',
