@@ -229,6 +229,16 @@ export default {
         source:
           'Live todo app is developed using react js library. This app is a single page application which works without refresh. Live data can be stored internally as JSON and resets on refresh. This app is developed as part of a crash course taught by Brad Traversy',
       },
+      {
+        icon  : 'mdi-certificate',
+        text  : 'Coursera - Modern JavaScript: ES6 Basics',
+        source: 'https://coursera.org/verify/W7PRXNBWYCGL',
+      },
+      {
+        icon  : 'mdi-certificate',
+        text  : 'Coursera - Introduction to ReactJs',
+        source: 'https://coursera.org/verify/DS36NCT22T2K',
+      },
     ],
     certificates: [
       {
