@@ -31,8 +31,6 @@
         </template>
       </sidebar-section>
 
-      <br />
-
       <!-- Hobbies -->
       <sidebar-section :options="sections.hobbies">
         <template v-slot:item="{item}">
